@@ -10,7 +10,7 @@ from lib.datasets.datasets import ShapeNetAllDataset
 from lib.datasets.image_transformations import ComposeImageTransformation
 from lib.datasets.cloud_transformations import ComposeCloudTransformation
 
-from lib.networks.models import Local_Cond_RNVP_MC_Global_RNVP_VAE_IC, Discriminator1, Discriminator2
+from lib.networks.models import Local_Cond_RNVP_MC_Global_RNVP_VAE_IC, Discriminator1
 from lib.networks.losses import Local_Cond_RNVP_MC_Global_RNVP_VAE_Loss, GAN_Loss
 from lib.networks.optimizers import Adam, LRUpdater
 from lib.networks.training import train
