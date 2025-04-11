@@ -71,8 +71,8 @@ NVCCFLAGS += -std=c++17 -ccbin=$(CXX) -Xcompiler -fPIC $(COMMON_FLAGS)
 
 all: $(STATIC_LIB)
 	$(PYTHON) setup.py build
-	@ mv build/lib.linux-x86_64-311/StructuralLosses ..
-	@ mv build/lib.linux-x86_64-311/*.so ../StructuralLosses/
+	@ mv build/lib.linux-x86_64-cpython-311/StructuralLosses ..
+	@ mv build/lib.linux-x86_64-cpython-311/*.so ../StructuralLosses/
 	@- $(RM) -rf $(OBJ_DIR) build objs
 
 $(OBJ_DIR):
