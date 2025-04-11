@@ -1,6 +1,6 @@
 ### Dataset configs ###
-path2data: .../data/
-path2save: .../code/FlowGAN/logs/
+path2data: ./data/
+path2save: ./logs/
 images_fname: 'ShapeNet_02691156_images.h5'
 meshes_fname: 'ShapeNet_02691156_meshes.h5'
 cloud_size: 2500
